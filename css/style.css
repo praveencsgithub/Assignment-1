@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+  }
+  
+  
+  .container {
+    max-width: 1440px;
+    margin:0 auto;
+    margin-top: 24px;
+    padding: 0 20px;
+  }
+  .search-icon{
+      height: 50px;
+      width: 50px;
+      margin-top: 10px;
+  }
+  
+  /*
+   ----------------------------------- */
+  /* ------------- NAVBAR -------------- */
+  /* ----------------------------------- */
+  
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  
+  .list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  
+  .list-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  
+  .list :nth-child(1) {
+    border-bottom: 2px solid #000;
+    width: 80px;
+  }
+  
+  
+  .nav-button {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    color: #515151;
+    text-align: center;
+    border: 2px solid black;
+    background: transparent;
+    padding: 5px 56.72px 5.06px 56.32px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .button-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* ----------------------------------- */
+  /* ------------- HERO BANNER -------------- */
+  /* ----------------------------------- */
+  
+  
+  .hero-container {
+    display: flex;
+    align-items: center;
+    margin-top: 132px;
+    position: relative;
+  }
+  
+  
+  .square {
+    position: absolute;
+    bottom: -50px;
+    left: 15.6%;
+    z-index: -10;
+  }
+  
+  
+  .star {
+    position: absolute;
+    right: 4.25%;
+    top: -60px;
+  }
+  
+  
+  .globe {
+    position: absolute;
+    left: 53.34%;
+    right: 42.58%;
+    top: -12.9%;
+  }
+  
+  
+  .hero-container-right {
+    margin-left: 90px;
+    text-align: center;
+  }
+  
+  
+  .hero-heading {
+    font-family: "Orbitron";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 92px;
+    color: #000000;
+    margin-bottom: 58.35;
+  }
+  
+  .hero-description {
+    max-width: 748px;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #515151;s
+    margin-bottom: 120px;
+  }
+  
+  
+  .button-email {
+    font-family: "Orbitron";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+    color: #515151;
+    background: transparent;
+    border: 2px solid black;
+    padding: 5.6px 18px 5.6px 18px;
+    border-radius: 12px;
+  }
+  
+  
+  .button-join {
+    font-family: "Orbitron";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+    color: #ffffff;
+    background: #000;
+    border: 2px solid black;
+    padding: 5.6px 18px 5.6px 18px;
+    border-radius: 12px;
+    margin-left: 24px;
+    margin-bottom: 131.68px;
+  }
+  
+  
+  .contact-heading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #515151;
+    margin-bottom: 15px;
+  }
+  
+  
+  .icons span {
+    margin-right: 27.61px;
+  }
+  
+  
+  .icons span:last-child {
+    margin-right: 0;
+  }
